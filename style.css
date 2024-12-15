@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(234, 202, 206);
+}
+.Name{
+    align-items: center;
+    text-align: center;
+}
+  .container-primary {
+    width: 90%;
+    margin: 20px auto;
+    justify-content: flex-end;
+}
+
+.container {
+    display: flex;
+}
+.container-secondary {
+    
+}
+.text {
+    float: right;
+    width: 65%;
+    padding: 10px;
+    background-color: rgb(216, 153, 160);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+}
+
+.image {
+    float: left;
+    width: 70%;
+    margin-right: 5%;
+}
+.image:hover {
+    transform: rotate(360deg);
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.gallery {
+    clear: both;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.gallery img {
+    width: 32%;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+}
+  
+
+/*FONTS*/
+.sigmar-one-regular {
+    font-family: "Sigmar One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 95px;
+    color:rgb(76, 38, 44);
+  }
+  .faculty-glyphic-regular {
+    font-family: "Faculty Glyphic", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  /*FONTS*/
+  
+  /*BOOTSTRAP*/
+
+/*BOOTSTRAP*/
